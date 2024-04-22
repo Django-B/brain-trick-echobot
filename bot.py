@@ -26,7 +26,7 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler()
 async def echo(message: types.Message):
-    text = 'Отлично, давай еще одну задачу и потом точно все 👍'
+    text = 'Давай еще одну задачу и потом точно все.'
     await message.answer(text)
 
 
